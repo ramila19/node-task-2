@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", function (req, res) {
-  res.send("Abdulov Servet");
+  res.send("Ramila Huseynova");
 });
 app.get("/card", function (req, res) {
   res.send("Bu route kartlar üçün cavabdehdir");
